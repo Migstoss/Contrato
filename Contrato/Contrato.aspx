@@ -7,7 +7,7 @@
 <style>
   table{
     margin: auto; 
-    width: 50% !important;
+    width: 68% !important;
     margin: 0px auto;
     float: none;
   }
@@ -26,7 +26,13 @@
   <form id="form1" runat="server">
 		<table border="0">
 			<tr>        
-			  <td><div class="col" style="width: 100%; height: 400px; overflow: scroll"><asp:GridView ID="GridView" CssClass="col" runat="server" AutoGenerateColumns="True" OnSelectedIndexChanged="GridView_SelectedIndexChanged"></asp:GridView></div></td>
+			  <td><div class="col" style="width: 100%; height: 400px; overflow: scroll; margin-top:25px;"><asp:GridView ID="GridView" style="width: 100%; height: 398px; overflow: scroll; margin-top:25px; top: 2px; left: -8px;" CssClass="col" runat="server" AutoGenerateColumns="false" OnSelectedIndexChanged="GridView_SelectedIndexChanged"> 
+          <Columns>
+            <asp:BoundField DataField="id_ctd_contrato_detalle" HeaderText="detalle" Visible="false"></asp:BoundField>
+            <asp:BoundField DataField="id_ctd_contrato" HeaderText="id" Visible="false"></asp:BoundField>
+            <asp:BoundField DataField="descripcion_contrato" HeaderText="Contratos"></asp:BoundField>
+          </Columns>
+			  </asp:GridView></div></td>
 			</tr>
       <tr>
 			  <td><div class="col"><asp:CheckBox ID="cbAceptar" CssClass="col checkbox" runat="server" Text="Aceptar Terminos" /></div></td>
