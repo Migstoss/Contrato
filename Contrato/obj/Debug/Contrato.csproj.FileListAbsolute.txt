@@ -56,3 +56,6 @@ C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\obj\Debug\Contrato.csprojAss
 C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\obj\Debug\Contrato.csproj.CopyComplete
 C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\obj\Debug\Contrato.dll
 C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\obj\Debug\Contrato.pdb
+C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\bin\IronPdf.Assets.Rendering.Windows.dll
+C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\bin\IronPdf.dll
+C:\Users\Jeremy\Documents\Apps\vs\Contrato\Contrato\bin\IronPdf.xml
